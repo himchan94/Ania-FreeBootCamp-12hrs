@@ -4,22 +4,37 @@ body {
   /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: white; */
-  display: flex;
-  justify-content: center;
-}
-.first-circle {
-  height: 300px;
-  width: 300px;
-  background-color: blueviolet;
-  border-radius: 150px;
-  position: absolute;
 }
 
-.second-circle {
-  height: 280px;
-  width: 280px;
-  background-color: blue;
-  border-radius: 140px;
-  z-index: 0;
-  margin-top: 10px;
+.face {
+  width: 300px;
+  height: 300px;
+  background-color: beige;
+  border-radius: 150px;
+  margin-left: 50px;
+  margin-top: 80px;
+  position: absolute;
+
+  transform: translate3d(50px, 50px, 0);
+}
+.eye-container {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.pupil {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 10px 0px 10px 20px;
 }
