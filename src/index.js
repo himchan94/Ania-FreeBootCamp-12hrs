@@ -1,10 +1,5 @@
-const bob = document.querySelector(".face")
+//.slice()
+// it does not mutate arrays
+//it produce new ones
 
-let count = 0
-
-function moveBob() {
-  count += 50
-  bob.style.left = count + "px"
-}
-
-bob.addEventListener("click", moveBob)
+const display = document.querySelector(".display")
