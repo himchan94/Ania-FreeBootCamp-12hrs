@@ -1,23 +1,9 @@
-// const celcius = [23, 140, 212, 41];
-// // -34 * 1.8
-// function getCelcius(far) {
-//   const cel = far.map((f) => (f - 32) / 1.8);
-//   console.log(cel);
-// }
+const drinksMenu = ["사이다", "콜라", "주스"]
 
-// getCelcius(celcius);
+const randomNumber = Math.random()
 
-// const testList = [11, NaN, [], "Angels"];
+console.log(drinksMenu[Math.round(randomNumber) * 2])
 
-// function checkFalsey(arr) {
-//   return arr.some((element) => !element);  // NaN is falsey
-// }
+console.log(drinksMenu.length)
 
-// console.log(checkFalsey(testList));
-
-const testList = ["Rabbit", "Football", "Cracking"];
-function getTotal() {
-  return testList.reduce((acc, current) => acc + current).length;
-}
-
-console.log(getTotal(testList));
+console.log(drinksMenu[Math.floor(Math.random() * drinksMenu.length)])
